@@ -6,8 +6,8 @@ import java.io.InputStreamReader;
 import org.onlineshopping.ClientPage.Buyer;
 import org.onlineshopping.ClientPage.BuyerOptions;
 import org.onlineshopping.ClientPage.Common;
-import org.onlineshopping.>AuctionCompetition.BidNotifications;
-import org.onlineshopping.>AuctionCompetition.Bids;
+import org.onlineshopping.AuctionCompetition.BidNotifications;
+import org.onlineshopping.AuctionCompetition.Bids;
 
 public class OpenBidding {
 

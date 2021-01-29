@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 
-import org.onlineshopping.strategy.*;
+import org.onlineshopping.RegistrationInformation.Reports;
 
 
 public class Buyer {

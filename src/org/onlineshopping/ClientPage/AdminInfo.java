@@ -1,4 +1,4 @@
-package org.onlineshopping.AdminInfo;
+package org.onlineshopping.ClientPage;
 
 public class AdminInfo {
 
