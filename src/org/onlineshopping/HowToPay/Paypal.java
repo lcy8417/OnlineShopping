@@ -1,4 +1,4 @@
-package org.onlineshopping.BuyingOptions;
+package org.onlineshopping.HowToPay;
 
 import org.onlineshopping.PaymentWindow.Online; 
 import org.onlineshopping.ClientPage.Common;

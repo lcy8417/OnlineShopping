@@ -1,4 +1,4 @@
-package org.onlineshopping.itemState;
+package org.onlineshopping.ItemState;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

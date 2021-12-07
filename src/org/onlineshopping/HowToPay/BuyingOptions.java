@@ -1,8 +1,7 @@
-package org.onlineshopping.BuyingOptions;
+package org.onlineshopping.HowToPay;
 
 import java.io.IOException; 
-
-import org.onlineshopping.PaymentWindow.Online; 
+import org.onlineshopping.items.Items;
 import org.onlineshopping.ClientPage.Common;
 
 public class BuyingOptions {

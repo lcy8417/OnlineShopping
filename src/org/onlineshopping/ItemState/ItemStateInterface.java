@@ -1,8 +1,8 @@
-package org.onlineshopping.itemState;
+package org.onlineshopping.ItemState;
 
 public interface ItemStateInterface {
-	
-public void setItemAvailability(int Item_Id,String Availability);
-public String getItemAvailability(int Item_Id);
+    public void setItemAvailability(Boolean isAvail, int item_ID);
 
 }
+
+

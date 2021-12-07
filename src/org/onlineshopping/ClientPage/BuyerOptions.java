@@ -7,7 +7,7 @@ import org.onlineshopping.items.Items;
 import org.onlineshopping.AuctionCompetition.BidNotifications;
 import org.onlineshopping.AuctionCompetition.Bids;
 import org.onlineshopping.ItemState.Account;
-import org.onlineshopping.>RegistrationInformation.*;
+import org.onlineshopping.RegistrationInformation.Reports;
 
 public class BuyerOptions{		
 	

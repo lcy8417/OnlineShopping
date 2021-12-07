@@ -14,9 +14,10 @@ public class ItemClass extends AddItemAbstractClass{
 	
 	private static int[] Item_Id=new int[10];
 	private static String[] Item_Name=new String[10];
-	private static String[]Item_Type=new String[10];
+	protected static String[]Item_Type=new String[30];
+	protected static String decription =new String();
 	private static String[] Item_Price=new String[10];
-	private static String[] Available=new String[10];
+	protected static Boolean[] Available=new Boolean[10];
 
 	public int getItem_Id(int no) {
 		return Item_Id[no];
@@ -25,11 +26,16 @@ public class ItemClass extends AddItemAbstractClass{
 		Item_Id[no] = item_Id;
 	}
 	
-	public String getAvailable(int no) {
+	public Boolean getItemAvailability(int no){
 		return Available[no];
 	}
-	public void setAvailable(int no,String available) {
-		Available[no]= available;
+
+	public String printAvailable(int no) {
+		if(Available[no] == false ){
+			return "can not use";
+		}else{
+			return "can use";
+		}
 	}
 	
 	public String getItem_Name(int no) {
@@ -106,7 +112,7 @@ public class ItemClass extends AddItemAbstractClass{
 		setItem_Price(no,br.readLine());
 		
 		System.out.println("Enter Availability:");
-		setAvailable(no,br.readLine());
+		//setAvailable(no,br.readLine());
 		}
 		catch(Exception er){
 			System.out.println("Error Occured:"+er.getMessage());
